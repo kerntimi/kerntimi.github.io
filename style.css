@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+}
+
+.whole {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 70%;
+}
+
+/* Top part */
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid black;
+  height: 400px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.textOnPicture {
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+.top p {
+  font-family: 'Abril Fatface', cursive;
+  margin: 0;
+}
+.firstLine {
+  font-size: 30px;
+}
+.secondLine {
+  font-size: 60px;
+}
+
+/* First text part */
+
+.firstMiddleText {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+li {
+  margin-left: 20px;
+}
+
+/* Grey box */
+
+.greyBox {
+  width: 65%;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  background-color: #222;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  color: white;
+  position: relative;
+}
+.greyBox p::before {
+  content: "“";
+  font-size: 100px;
+  margin-top: 0;
+  position: absolute;
+  top: -70px;
+  left: -45px;
+}
+.greyBox p {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+}
+
+/* Second text part */
+
+.textParts {
+  width: 60%;
+  margin: 40px auto;
+  line-height: 1.4;
+}
+.upperCase {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.paragraphHead {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.paragraph {
+  margin-bottom: 15px;
+}
+
+/* Third text part with lists */
+
+.withSecondLine {
+  font-weight: bold;
+  font-size: 20px;
+}
+.paragraphHeadSecondLine {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Bottom part */
+
+hr {
+  width: 60%;
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+
+/* Fixed parts */
+
+.inVision {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 2px 3px 5px lightgrey;
+  padding: 10px 5px 1px 8px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  opacity: 70%;
+}
+a:hover {
+  color: black;
+}
+a {
+  font-family: 'Sen', sans-serif;
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+}
+img {
+  height: 15px;
+}
+
+.rightButtons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+}
+.icon {
+  width: 18px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px lightgrey;
+  margin: 5px;
+  padding: 13px 11px 8px 14px;
+  background: white;
+  opacity: 70%;
+}
